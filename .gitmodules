@@ -1,0 +1,3 @@
+[submodule "modules-contrib/devenv"]
+	path = modules-contrib/devenv
+	url = https://github.com/a1russell/puppet-devenv.git

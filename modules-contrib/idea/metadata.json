@@ -1,0 +1,35 @@
+{
+  "name": "puppet-idea",
+  "version": "0.1.0",
+  "source": "https://github.com/smarchive/puppet-idea",
+  "author": "Jochen Schalanda",
+  "license": "Apache 2.0",
+  "summary": "Puppet module for installing IntelliJ IDEA Community or Ultimate Edition",
+  "description": "This module installs IntelliJ IDEA Community or Ultimate Edition from the official vendor site. Check README.md for details.",
+  "project_page": "https://github.com/smarchive/puppet-idea",
+  "dependencies": [
+    {
+      "name": "smarchive/archive",
+      "version_requirement": ">=0.1.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "b9cc73f1051890bdf7287d577e7a5278",
+    "LICENSE-2.0.txt": "3b83ef96387f14655fc854ddc3c6bd57",
+    "Modulefile": "ffbef6e3353a865ec3d4d98c3b090962",
+    "README.md": "ed86f390ddf7ba6ea4ee6edc94f15f67",
+    "Rakefile": "727888ad80f809c4984181b169499d96",
+    "manifests/base.pp": "42b91183a8bd69168eaf0d8f083e0163",
+    "manifests/community.pp": "12dbe248cef896a578923a0eb4cda67e",
+    "manifests/init.pp": "1ebad664d901782543d5f782b191b2b0",
+    "manifests/params.pp": "0ade101888046fc9e0fa4f4bd9fd04ef",
+    "manifests/ultimate.pp": "61c9383a1562e135dd24da68f7594a6b",
+    "spec/fixtures/manifests/init.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "spec/spec_helper.rb": "3011a30b013ba2e44f7bf8615fdf2b8a",
+    "templates/idea.sh.erb": "058ade314d7fb65f801e85e29f12b044",
+    "tests/init.pp": "f29be7685bd62f081928d26ecce167a3"
+  }
+}
