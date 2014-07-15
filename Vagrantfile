@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 Vagrant::Config.run do |config|
-  config.vm.box = "wheezy64"
-  config.vm.box_url = "https://dl.dropboxusercontent.com/u/197673519/debian-7.2.0.box"
+  config.vm.box = "vagrant-devenv"
+  config.vm.box_url = "vagrant-devenv.box"
 
   config.vm.boot_mode = :gui
 
