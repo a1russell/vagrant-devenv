@@ -13,6 +13,6 @@ Instructions:
 ```sh
 git clone https://github.com/a1russell/vagrant-devenv.git vagrant-devenv
 cd vagrant-devenv
-packer build wheezy64
+packer build vagrant-devenv.json
 vagrant up
 ```
